@@ -33,6 +33,12 @@ docker-compose build
 docker-compose up -d
 ```
 
+* Optionally, to run the tests
+```
+cd mfa
+mvn test
+```
+
 ### Using the Application 
 
 * Send a request to generate an MFA code to /mfa/generate
